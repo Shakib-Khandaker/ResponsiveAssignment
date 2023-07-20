@@ -1,0 +1,520 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color: white;
+    
+}
+.parts{
+    display: flex;
+   
+    direction: row;
+    width: 75%;
+    margin: 20px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.gamer{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navigation{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.background{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    flex: 3;
+    padding: 20px;
+    gap:10px;
+    display: flex;
+    justify-content: space-between;
+}
+.mainheader{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 50px;
+   
+}
+.goat{
+    flex: 1;
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    background: url("../images/Group 14.png");
+    background-size: cover;
+   justify-content: space-around;
+}
+.player{
+    width: 75%;
+    margin: 20px auto;
+    height: 500px;
+}
+.item{
+    margin-bottom:10px ;
+    align-items: center;
+    display: flex;
+    gap:10px
+}
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.goatimage{
+    height: 500px;
+    flex: 1;
+    width: 75%;
+    margin: 20px auto;
+    text-align: center;
+}
+.goatimage img{
+    width: 75%;
+    margin: 0px auto;
+    height: 500px;
+}
+.weare{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.players{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    align-items: center;
+    margin: 30px auto;
+    gap:30px;
+    flex-wrap: wrap;
+}
+.part1{
+    flex: 1;
+}
+.part2{
+    flex: 1;
+    text-align: right;
+    align-self: flex-end;
+}
+.onlinegames{
+    width: 75%;
+    margin: 20px auto;
+    margin-top: 20px;
+}
+.collections{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+   
+    flex-wrap: wrap;
+
+}
+.item3{
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 10px;
+    gap:10px
+}
+.item{
+    flex: 1;
+    flex-direction: column;
+}
+.instanly{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    width: 75%;
+    margin: 30px auto;
+}
+.playinstant{
+    flex:1;
+    align-items: center;
+   
+}
+.photos{
+   flex:1;
+}
+.instantly{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:100px;
+    width: 85%;
+    margin: 30px auto;
+}
+.photos2{
+    text-align: right;
+  
+}
+.playinstant3{
+    flex:1;
+    align-items: center;
+   
+}
+.ready{
+    width: 50%;
+    text-align: start;
+}
+.careers{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    width: 75%;
+    margin: 30px auto;
+}
+.career{
+    background-color: #FF42A5;
+}
+.written{
+    width:75%;
+    margin:0px auto;
+    padding: 40px;
+}
+.writepart1{
+    color: white;
+}
+.showgrid{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+.item1{
+    margin-bottom: 10px;
+}
+.item2{
+    margin-bottom: 10px;
+    text-align: end;
+}
+.games{
+    width: 75%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+   
+    gap:20px
+}
+.game{
+     gap:10px;
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+    box-shadow: 10 10 10px rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    background-color: white;
+    width: 250px;
+    padding:10px;
+}
+.game p{
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+align-items: center;
+}
+.special{
+    text-align: center;
+    border:1px solid saddlebrown;
+    padding:10px 35px;
+    border-radius: 50px;
+}
+.careerimage{
+    flex: 1;
+}
+.footer{
+    background-color: #0B0223;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+.footermain{
+    width: 75%;
+    text-align: center;
+    margin: 0px auto;
+    padding: 30px;
+}
+.navs{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    gap: 10px;
+    align-items: center;
+}
+.footer p{
+    color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.footernavs{
+    gap:10px;
+    display: flex;
+    
+    align-items: center;
+    margin-bottom: 15px;
+}
+.footer img,p{
+    text-align: center;
+}
+.gamer2{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ 
+}
+.playinstant{
+    text-align: right;
+}
+.firstphoto{
+    height:400px; 
+    display: block;
+    margin-left: 100px;
+}
+.secondphoto{
+    height:200px;
+     display: block;
+     margin-top: -65px;
+     margin-left: 50%;
+}
+.firstphoto1{
+    height:400px;
+     display: block;margin-left: 100px
+}
+.secondphoto1{
+    height:200px;
+    display: block;
+    margin-top: -65px;
+}
+.collections img{
+
+height: 400px;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #0B0223;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-top: 80px;
+  }
+
+  .footer-items{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    row-gap:20px;
+    column-gap: 20px;
+  }
+  .footer-logo{
+    align-items: center;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    row-gap:20px;
+    column-gap: 20px;
+  }
+  .footer-items a{
+    display: block;
+    margin-bottom: 10px;
+  text-decoration: none;
+  color: #FFFFFF;
+  }
+  .footer-title{
+    color: #FFF;
+  font-size: 45px;
+  font-weight: 700;
+  }
+  .footer-seetings{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: rgba(255, 255, 255, 0.60);
+  font-size: 16px;
+  font-weight: 500;
+  flex-wrap: wrap;
+  gap: 30px;
+  }
+  .footer-seetings li{ 
+  list-style: none;
+  }
+  .footer-seetings a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+  }
+  
+  .footer-pera{
+    color: rgba(255, 255, 255, 0.60);
+  font-size: 16px;
+  font-weight: 500;
+  
+  }
+  .container {
+    position: relative;
+  
+  }
+  
+  
+  
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  
+    color: white;
+    font-size: 16px;
+   
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .btn img{
+    width: 50px;
+    height: 50px;
+  }
+  .container .btn:hover {
+    background-color: black;
+  }
+@media only screen and (max-width: 1000px) {
+    .footer-items,.footer-logo {
+        display: grid;
+        grid-template-columns: auto auto auto;
+      }
+    .footer-seetings{
+        display: grid;
+        grid-template-columns: auto auto ;
+    }
+   .parts,.goat,.gamer2,.navigation,.mainheader{
+    flex-direction: column;
+   }
+   .navigation{
+    align-self: center;
+    gap:20px;
+   }
+   .mainheader{
+    flex-direction: column-reverse;
+   }
+   .goatimage img{
+    height:350px;
+   }
+   
+   .goat{
+    flex: 1;
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    background: url("../images/Group 14.png");
+    background-size: contain;
+}
+   .player{
+    height: 500px;
+     width: 95%;
+    text-align: center;
+    padding:30px;
+  
+   }
+   .buttons{
+    text-align: center;
+   }
+   .players{
+    flex-direction: column;
+   }
+   .part1 img{
+    height:300px;
+    width: 95%;
+   }
+   .part2{
+    text-align: center;
+   }
+   .instanly{
+    flex-direction: column;
+   }
+   .instantly{
+    flex-direction: column-reverse;
+   }
+   .playinstant{
+    text-align: center;
+   }
+   .playinstant3{
+    text-align: center;
+   }
+   .ready{
+    width: 75%;
+    margin: 0px auto;
+    text-align: center;
+}
+.careers{
+    width: 95%;
+    margin: 30px auto;
+    flex-direction: column;
+}
+.written{
+    width: 95%;
+}
+.careerimage{
+    margin-bottom: 30px;
+}
+.careerimage img{
+    height: 350px;
+}
+.games{
+    width: 95%;
+    gap:10px
+}
+.game{
+   width:160px;
+}
+.game p{
+    font-size: 12px;
+}
+.special{
+    padding: 10px;
+}
+.firstphoto,.firstphoto1{
+height: 350px;
+margin-left: 20px;
+}
+.secondphoto,.secondphoto1{
+    height: 150px;
+    }
+    .secondphoto{
+        margin-left: 0%;
+        text-align: right;
+    }
+    .collections{
+        flex-direction: column;
+    }
+    .collections img{
+
+        height: 300px;
+        }
+        .btn img{
+            width: 50px;
+            height: 50px;
+          }
+  }
